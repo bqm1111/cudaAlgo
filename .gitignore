@@ -1,4 +1,5 @@
 **/build/
+**.user
 *.mp4
 *.jpg
 *.png
