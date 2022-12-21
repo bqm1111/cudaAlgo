@@ -16,6 +16,7 @@
 #include "../define.h"
 #include "common_structs.hpp"
 #include "../utils.hpp"
+#include <opencv/cv.hpp>
 #define GAUSS
 #define MIN_AREA 1500
 #define MAX_AREA 80000

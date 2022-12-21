@@ -23,7 +23,7 @@ include_directories(/usr/local/cuda/include)
 target_link_libraries(${PROJECT_NAME} -L/usr/local/cuda/lib64 -lcudart -lcuda)
 
 # OpenCV
-find_package(OpenCV 3.4 REQUIRED)
+find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS} )
 

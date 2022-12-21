@@ -8,6 +8,7 @@
 #include <dirent.h>
 #include "multicue/multicue.hpp"
 #include "CPU/cpumulticue.hpp"
+#include "opencv/cv.hpp"
 using namespace std;
 
 int main(int argc, char* argv[])

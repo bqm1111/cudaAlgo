@@ -222,6 +222,7 @@ void MultiCues::initParam(unsigned char *srcImg, int imgWidth, int imgHeight)
     m_ModelMemAllocated = true;
     m_NonModelMemAllocated = true;
 }
+
 void MultiCues::movingDetectObject(unsigned char *d_srcImg, unsigned char * h_srcImg, int srcWidth, int srcHeight)
 {
     if(m_frameCount == 0)
@@ -918,8 +919,7 @@ void MultiCues::gpuPostProcessing(unsigned char * h_img)
 
     getExeTime("++++ 3. RemovingInvalidFgRegion Time = ", removingInvalidFgRegion());
 
-
-    //    gpuLabelling(m_dResizedFgMap, d_labelCnt, d_labelTable);
+//        gpuLabelling(m_dResizedFgMap, d_labelCnt, d_labelTable);
 }
 
 }
